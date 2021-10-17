@@ -4,9 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Countries</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <form class="form" method="GET">
+      <input
+        class="input"
+        type="text"
+        name="countryName"
+        placeholder="Enter the name of the country"
+      />
+    </form>
+
+    <ul class="list"></ul>
+    <div class="country-info">
+      <h2 class="country-name"></h2>
+      <div class="country-container">
+        <div>
+          <p>Capital: <span class="capital"></span></p>
+          <p>Population: <span class="population"></span></p>
+          <p>Languages:</p>
+          <ul class="languages-list"></ul>
+        </div>
+        <div>
+          <img src="" alt="Flag" class="flag" />
+        </div>
+      </div>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>

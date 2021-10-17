@@ -1,0 +1,56 @@
+body {
+  background-color: wheat;
+}
+
+.form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  padding: 15px;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  width: 230px;
+}
+
+.list {
+  display: none;
+}
+
+.country-info {
+  display: none;
+  padding-left: 60px;
+  padding-right: 50px;
+}
+.country-container {
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+}
+.country-container div {
+  width: 50%;
+}
+
+.flag {
+  width: 100%;
+  max-height: 500px;
+}
+
+.country-name {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.capital {
+  font-weight: normal;
+}
+.population {
+  font-weight: normal;
+}
+.languages-list {
+  font-weight: normal;
+}
